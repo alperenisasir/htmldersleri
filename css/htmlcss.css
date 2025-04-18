@@ -13,6 +13,34 @@ h2{
     text-decoration: underline;
     text-transform: capitalize !important;
     text-shadow: 0.5px 0.6px 5px green;
-    
+    letter-spacing: 2px;
+    word-spacing: 1px !important;
+    line-height: 1.3px;
+    column-count: 3px;
+    column-gap: 18px !important;
+    column-rule: 1px solid orange !important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden !important;
+    -webkit-line-clamp: 4;
+}
+.div_class{
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+/* veya sadece margin:10px de yazsanız yeterli*/
 
+    padding-top: 10px ;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* veya sadece padding:10px; yazsanı yeterli*/
+
+    box-shadow: 10px 1px 10px 1px rgba(0, 0, 0, 0.7);
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1rem !important;
+    border-bottom-left-radius: 10px;
 }
