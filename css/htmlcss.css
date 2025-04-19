@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body
+{
+    padding: 0 10%;
+}
+html{
+    font-size: 100%
+}
 h2{
     color:orange;
     background-color: black;
@@ -72,8 +79,8 @@ box-shadow: 10px 0.6px 10px 5px rgba(0, 0, 0, .9) ;
     font-style: oblique;
     text-transform: uppercase;
     text-shadow: 0.7px -0.6px 5px black;
-    padding: 0.4rem;
-    margin: 4rem;
+    padding: 0.1rem;
+    margin: 2rem;
     display: block;
     display: inline-block;
     display: inline;
@@ -87,4 +94,56 @@ box-shadow: 10px 0.6px 10px 5px rgba(0, 0, 0, .9) ;
     display: none;
     
 
+}
+.ul_id{
+    list-style-type: armenian;
+    margin-left: 20px;
+    padding-left: 0;
+    display: inline-block;
+}
+.ul_id li{
+    color: blue;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 25%;
+    display: inline-block;
+    /* margin-right: 50%; */
+
+}
+.ol_id{
+    margin-left: 20px;
+    padding-left: 0;
+    display: inline-block;
+
+}
+.ol_id li{
+    color: red;
+    font-size: 16px;
+    box-shadow: 5px 0.6px 1px 1px blue;
+
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid red;
+   
+}
+table th{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+table td{
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid black;
+
+}
+table td:hover{
+    background-color: white;
+    color:red
 }
