@@ -107,6 +107,7 @@ box-shadow: 10px 0.6px 10px 5px rgba(0, 0, 0, .9) ;
     border: 1px solid rgba(0, 0, 0, 0.7);
     border-radius: 25%;
     display: inline-block;
+    background-color: red;
     /* margin-right: 50%; */
 
 }
@@ -146,4 +147,26 @@ table td{
 table td:hover{
     background-color: white;
     color:red
+}
+.conterner{
+    border: 1px solid red;
+}
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+}
+.clearfix::after{
+ content: ""; 
+ display: table;
+ clear: both;
+}
+.clippath{
+    width: 200px;
+    background-color: aqua;
+    clip-path: circle(50% at 50% 50%);
+   
 }
