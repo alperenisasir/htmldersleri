@@ -3,9 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --main_color:white;
+    --mainbgcolor:black;
+}
 body
 {
     padding: 0 10%;
+    color:var(--main_color);
+    background-color: var(--mainbgcolor);
 }
 html{
     font-size: 100%
@@ -169,4 +175,32 @@ table td:hover{
     background-color: aqua;
     clip-path: circle(50% at 50% 50%);
    
+}
+/* p{
+    color: red;
+    background-color: blue;
+} */
+/* div p{
+    background-color: yellow;
+    color: red;
+} */
+/* p::before{
+    content: "frontent";
+}
+p::after{
+    content: "bo";
+}
+p:hover{
+    color: blue;
+    background-color: green;
+}
+p:nth-child(even){
+    color: green;
+    background-color: aqua;
+} */
+ /* div~p{
+    background-color: green;
+ } */
+div+p{
+    background-color: green;
 }
