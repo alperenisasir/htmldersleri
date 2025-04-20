@@ -303,5 +303,46 @@ div+p{
     width: 90%;
     height: 200px;
 }
+#form_submit{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+}
+.form_data >label{
+    display: block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.form_data>input{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+}
+input[type="text"]{
+    background-color: yellowgreen;
+}
+input[type="email"]{
+    background-color: rgb(101, 201, 119);
+}
+input[type="password"]{
+    background-color: rgb(43, 104, 147);
+}
+input[type="reset"],button[type="submit"]{
+    background: linear-gradient(to left, red,green);
+    padding: 0.4rem;
+    transform: all 1.8;
+}
+input[type="reset"]:hover,button[type="submit"]:hover{
+    background: linear-gradient(to left, green,red);
+    padding: 0.4rem;
+  
+    text-transform: uppercase;
+    color: white;
+    transform: rotate(180deg);
+}
 
-    
