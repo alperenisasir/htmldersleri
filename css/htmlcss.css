@@ -221,3 +221,40 @@ div+p{
     flex: 1;
     text-align: center;
 }
+.my_responsive{
+    border: 1px solid yellow;
+    display: inline-block;
+    height: 100px;
+    width: 26%;
+    background-color: blue;
+
+}
+/* 768 dan 909 kadar bu şekil göster  */
+@media screen and (min-width: 768px){
+    .my_responsive{
+        background-color: yellow;
+        color: black;
+        margin-bottom: 10px;
+        width: 49%;
+    }
+    
+}
+/* 910 dan 11999 e kadar bu şekilde göster   */
+@media screen and (min-width: 910px){
+    .my_responsive{
+    background-color: red;
+    color: black;
+    margin-bottom: 10px;
+    width: 32%;
+    }
+}
+/* 1200 den üstü ne bu şekilde göster  */
+@media screen and (min-width: 1200px){
+    .my_responsive{
+    background-color: blue;
+    color: black;
+    margin-bottom: 10px;
+    width: 24%;
+    }
+}
+    
