@@ -275,7 +275,7 @@ div+p{
     color : red;
 }
 /*transform*/
-.transform{
+button[type="btn"]{
     background-color: blue;
     color:white;
     padding: 1rem;
@@ -286,8 +286,10 @@ div+p{
     margin:0 auto;
     transition: all 1.5s;
 }
-.transform:hover{
+button[type="btn"]:hover{
     transform: rotate(180deg);
+    background-color: white;
+    color : red;
 
 }
 .header_class{
@@ -302,6 +304,14 @@ div+p{
     background: linear-gradient(to left, red , blue);
     width: 90%;
     height: 200px;
+    transition: all 1.5s;
+
+}
+.my_grandient:hover{
+    background: linear-gradient(to left, yellow , red);
+    transform: rotate(180deg);
+
+
 }
 #form_submit{
     width: 100%;
@@ -335,7 +345,8 @@ input[type="password"]{
 input[type="reset"],button[type="submit"]{
     background: linear-gradient(to left, red,green);
     padding: 0.4rem;
-    transform: all 1.8;
+    transition: all 1.8s;
+    
 }
 input[type="reset"]:hover,button[type="submit"]:hover{
     background: linear-gradient(to left, green,red);
@@ -343,6 +354,10 @@ input[type="reset"]:hover,button[type="submit"]:hover{
   
     text-transform: uppercase;
     color: white;
-    transform: rotate(180deg);
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;
+    margin:0 auto;
+    padding: 1rem;
+    transform: rotate(360deg);
 }
-
