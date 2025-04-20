@@ -257,4 +257,37 @@ div+p{
     width: 24%;
     }
 }
+/*transaciton*/
+.transaciton{
+    background-color: red;
+    color:white;
+    padding: 1rem;
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin:0 auto;
+    transition: all 1.5s;
+
+}
+.transaciton:hover{
+    background-color: white;
+    color : red;
+}
+.transform{
+    background-color: blue;
+    color:white;
+    padding: 1rem;
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin:0 auto;
+    transition: all 1.5s;
+}
+.transform:hover{
+    transform: rotate(180deg);
+
+}
+
     
