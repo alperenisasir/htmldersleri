@@ -204,3 +204,20 @@ p:nth-child(even){
 div+p{
     background-color: green;
 }
+/* flexbox */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+.item{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+}
