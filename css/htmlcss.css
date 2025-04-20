@@ -257,7 +257,7 @@ div+p{
     width: 24%;
     }
 }
-/*transaciton*/
+/*transaition*/
 .transaciton{
     background-color: red;
     color:white;
@@ -274,6 +274,7 @@ div+p{
     background-color: white;
     color : red;
 }
+/*transform*/
 .transform{
     background-color: blue;
     color:white;
@@ -288,6 +289,19 @@ div+p{
 .transform:hover{
     transform: rotate(180deg);
 
+}
+.header_class{
+    background-image: url('../images/res2.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    /* object-fit: cover; */
+    height: 90vh;
+}
+.my_grandient{
+    background: linear-gradient(to left, red , blue);
+    width: 90%;
+    height: 200px;
 }
 
     
